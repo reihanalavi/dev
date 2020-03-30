@@ -1,5 +1,5 @@
 /* SCREEN MEDIA */
-@media (max-width: 720px) {
+@media (max-device-width: 640px) {
 
   .pp-reihan {
     margin-bottom: 2rem;
@@ -112,7 +112,7 @@
 
 }
 
-@media(min-width: 720px) {
+@media(min-device-width: 640px) {
   .title-body p {
     color: #E9F9FF;
     background: #2B2B2B;
