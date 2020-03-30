@@ -1,0 +1,421 @@
+/* SCREEN MEDIA */
+@media (max-width: 900px) {
+
+  .pp-reihan {
+    margin-bottom: 2rem;
+  }
+
+  .title-body p {
+    color: #E9F9FF;
+    background: #2B2B2B;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    font-family: "Rubik";
+    font-weight: 300;
+  }
+
+  .nav-item {
+    font-family: "Rubik";
+    font-weight: 300;
+    color: #E9F9FF;
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+
+  .p2 {
+    position: relative;
+    left: 0;
+  }
+
+  .p3 {
+    position: relative;
+    left: 0;
+  }
+
+  .me-medium {
+    margin: 1rem 0;
+    display: block;
+  }
+
+  .me-large {
+    margin: 1rem 0;
+    display: none;
+  }
+
+  .heading-me img {
+    width: 75%;
+    position: relative;
+    left: 10%;
+  }
+
+  .project-icon img {
+    margin: 2rem;
+    width: 75%;
+  }
+
+  .project .row .project-desc .project-name {
+    background: #2B2B2B;
+    margin-right: 0.5rem;
+    font-family: "Rubik";
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #E0E0DF;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+  }
+
+  .project-desc .project-using {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .project .row .project-desc img {
+    width: 10%;
+    margin-right: 0.5rem;
+  }
+
+  .projects-heading-img {
+    width: 50%;
+    margin: 10% 0;
+  }
+
+  .gallery {
+    width: 50%;
+    margin-bottom: 5rem;
+  }
+
+  .contact {
+    width: 50%;
+    margin: 2rem 0 5rem 0;
+  }
+
+  #contact .contact-icon {
+    width: 10%;
+    margin: 0 1rem;
+  }
+
+  #contact p {
+    color: #E9F9FF;
+    background: #2B2B2B;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    font-family: "Rubik";
+    font-weight: 400;
+    display:inline-block;
+    width: 80%;
+  }
+
+  #projects p, #me p {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media(min-width: 900px) {
+  .title-body p {
+    color: #E9F9FF;
+    background: #2B2B2B;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-family: "Rubik";
+    font-weight: 300;
+  }
+
+  .nav-item {
+    font-family: "Rubik";
+    font-weight: 300;
+    color: #E9F9FF;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+
+  .p1 {
+    position: relative;
+    right: 5rem;
+  }
+
+  .p2 {
+    position: relative;
+    left: 3rem;
+  }
+
+  .p3 {
+    position: relative;
+    right: 1rem;
+  }
+
+  .me-medium {
+    margin: 1rem 0;
+    display: none;
+  }
+
+  .me-large {
+    margin: 1rem 0;
+    display: block;
+  }
+
+  .heading-me img {
+    width: 75%;
+    position: relative;
+    left: 25%;
+  }
+
+  .project-icon img {
+    margin: 2rem;
+    width: 50%;
+  }
+
+  .project .row .project-desc .project-name {
+    background: #2B2B2B;
+    margin-right: 0.5rem;
+    font-family: "Rubik";
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #E0E0DF;
+    padding: 1rem;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .project-desc .project-using {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .project .row .project-desc img {
+    width: 5%;
+    margin-right: 0.5rem;
+  }
+
+  .projects-heading-img {
+    width: 25%;
+    margin: 5% 0;
+  }
+
+  .gallery {
+    width: 25%;
+    margin-bottom: 5rem;
+  }
+
+  .contact {
+    width: 25%;
+    margin: 2rem 0 5rem 0;
+  }
+
+  #contact .contact-icon {
+    width: 5%;
+    margin: 0 1rem;
+  }
+
+  #contact p {
+    color: #E9F9FF;
+    background: #2B2B2B;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    font-family: "Rubik";
+    font-weight: 400;
+    display:inline-block;
+    width: 50%;
+  }
+
+}
+
+/* PUBLIC CLASS */
+
+.contact-icon {
+  width: 10%;
+  margin-right: 0.25rem;
+}
+
+.inline {
+  display: inline;
+  margin-right: 1rem;
+}
+
+/* BASIC COLOURS */
+
+.background-dark {
+  background-color: #3F3F3F;
+}
+
+.background-dark-tint {
+  background-color: #2B2B2B;
+}
+
+
+/* TITLE */
+
+#title {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  padding: 2% 2%;
+}
+
+.title-image {
+  margin: 0;
+  width: 75%;
+}
+
+.title-body {
+  padding: 2% 8%;
+}
+
+.pp-reihan {
+  width: 75%;
+}
+
+.title-text {
+  height: auto;
+  align-self:center;
+}
+
+.title-text p {
+  display: inline-block;
+}
+
+.title-cp {
+  align-self: center;
+}
+
+.title-cp img {
+  width: 16%;
+  margin: 1rem 0;
+  margin-right: 1rem;
+}
+
+.title-cp p {
+  padding: 0.5rem;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/* ME */
+
+#me {
+  padding: 2% 10%;
+  background-color: #E0E0DF;
+}
+
+.me-text, .me-img {
+  align-self: center;
+}
+
+.heading-me p {
+  color: #2B2B2B;
+  background: #B2B2B2;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-family: "Rubik";
+  font-weight: 400;
+}
+
+/* PROJECTS */
+
+#projects {
+  text-align: center;
+}
+
+.projects .row {
+  margin: 0;
+  text-align: left;
+
+}
+
+.projects .heading {
+  width: 20%;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.projects-title-div h1 {
+  padding: 2%;
+  background-color: #E0E0DF;
+  font-family: "Rubik";
+  font-weight: 300;
+  display: block;
+  text-align: center;
+}
+
+.projects-line-div hr {
+  border-width: 10px;
+  border-style: none;
+  border-top-style: dashed;
+  border-color: #2B2B2B;
+  margin: 2rem;
+  align-self: center;
+}
+
+.project .row {
+  padding: 2rem;
+}
+
+.project .row .project-icon {
+  text-align: center;
+}
+
+.project .row .project-desc {
+  align-self: center;
+}
+
+.project .row .project-desc .project-p {
+  background: #2B2B2B;
+  font-family: "Rubik";
+  font-weight: 300;
+  color: #E0E0DF;
+  padding: 1rem;
+  display: inline-block;
+  text-align: left;
+}
+
+/* GALLERY */
+
+#gallery {
+  padding: 5% 0;
+  background-color: #E0E0DF;
+  text-align: center;
+}
+
+.carousel-item img {
+  text-align: center;
+  width: 50%;
+  padding: 2% 2%;
+}
+
+/* CONTACT */
+
+#contact {
+  padding: 2% 0;
+  text-align: center;
+}
+
+#contact .container-fluid {
+  margin-bottom: 2rem;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#footer p {
+  color: #E9F9FF;
+  font-size: 1.5rem;
+  font-family: "Rubik";
+  font-weight: 300;
+  display:inline-block;
+}
