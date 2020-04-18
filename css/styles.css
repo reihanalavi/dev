@@ -1,8 +1,15 @@
 /* SCREEN MEDIA */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
 
+  .backtop {
+    bottom: 50px;
+    right: 50px;
+    width: 20%;
+  }
+
   .pp-reihan {
     margin-bottom: 2rem;
+    opacity: 0;
   }
 
   .title-body p {
@@ -82,11 +89,17 @@
 
   .gallery {
     width: 50%;
+    position: relative;
+    top: -30px;
+    opacity: 0;
     margin-bottom: 5rem;
   }
 
   .contact {
     width: 50%;
+    position: relative;
+    top: -30px;
+    opacity: 0;
     margin: 2rem 0 5rem 0;
   }
 
@@ -103,6 +116,9 @@
     font-family: "Rubik";
     font-weight: 400;
     display:inline-block;
+    position: relative;
+    top: -30px;
+    opacity: 0;
     width: 80%;
   }
 
@@ -113,6 +129,15 @@
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 2560px) {
+  .backtop {
+    bottom: 20px;
+    right: 20px;
+    width: 10%;
+  }
+
+  .pp-reihan {
+    opacity: 0;
+  }
   .title-body p {
     color: #E9F9FF;
     background: #2B2B2B;
@@ -195,18 +220,24 @@
 
   .gallery {
     width: 25%;
+    position: relative;
+    top: -30px;
+    opacity: 0;
     margin-bottom: 5rem;
   }
 
   .contact {
     width: 25%;
+    position: relative;
+    top: -30px;
+    opacity: 0;
     margin: 2rem 0 5rem 0;
   }
 
   #contact .contact-icon {
-    width: 5%;
     margin: 0 1rem;
   }
+
 
   #contact p {
     color: #E9F9FF;
@@ -216,16 +247,36 @@
     font-family: "Rubik";
     font-weight: 400;
     display:inline-block;
+    position: relative;
+    top: -30px;
+    opacity: 0;
     width: 50%;
   }
 
 }
 
 /* PUBLIC CLASS */
+.backtop {
+  display: none;
+  position: fixed;
+  z-index: 99;
+}
 
 .contact-icon {
   width: 10%;
   margin-right: 0.25rem;
+}
+
+.email, .ig {
+  opacity: 0;
+  position: relative;
+  top: -20px;
+}
+
+.fb, .wa {
+  opacity: 0;
+  position: relative;
+  bottom: -20px;
 }
 
 .inline {
@@ -268,12 +319,30 @@
 }
 
 .pp-reihan {
-  width: 75%;
+  width: 70%;
 }
 
 .title-text {
   height: auto;
   align-self:center;
+}
+
+.title-text .p1 {
+  position: relative;
+  right: -50px;
+  opacity: 0;
+}
+
+.title-text .p2 {
+  position: relative;
+  left: -50px;
+  opacity: 0;
+}
+
+.title-text .p3 {
+  position: relative;
+  right: -70px;
+  opacity: 0;
 }
 
 .title-text p {
@@ -282,6 +351,9 @@
 
 .title-cp {
   align-self: center;
+  position: relative;
+  bottom: -50px;
+  opacity: 0;
 }
 
 .title-cp img {
@@ -309,8 +381,31 @@
   background-color: #E0E0DF;
 }
 
+.me-image {
+  opacity: 0;
+
+}
+
 .me-text, .me-img {
   align-self: center;
+}
+
+.me-text .p1 {
+  position: relative;
+  top: -50;
+  opacity: 0;
+}
+
+.me-text .p2 {
+  position: relative;
+  top: -40;
+  opacity: 0;
+}
+
+.me-text .p3 {
+  position: relative;
+  top: -30;
+  opacity: 0;
 }
 
 .heading-me p {
@@ -326,6 +421,24 @@
 
 #projects {
   text-align: center;
+}
+
+.projects-heading-img {
+  position: relative;
+  top: -30px;
+  opacity: 0;
+}
+
+.wits, .hoaksiber, .alzorakata {
+  position: relative;
+  opacity: 0;
+  left: -30px;
+}
+
+.karaktera, .tugasque {
+  position: relative;
+  opacity: 0;
+  right: -30px;
 }
 
 .projects .row {
