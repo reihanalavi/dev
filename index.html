@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+
+    <img class="backtop" src="images/button_backtop.png" />
+
     <section class="background-dark" id="title">
       <div class="container-fluid">
-        <nav class="background-dark-tint navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand title-nav" href="#"><img class="title-image" src="images/title-web.svg" alt=""></a>
+        <nav class="background-dark-tint navbar navbar-expand-lg navbar-dark collapsed">
+          <a class="navbar-brand title-nav" href="#"><img class="title-image" src="images/title-web.svg" alt="reihanalavi"></a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-title" aria-controls="navbar-title" aria-expanded="false" aria-label="Toggle" aria-type="button" type="button" name="button">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,16 +27,16 @@
           <div class="collapse navbar-collapse" id="navbar-title">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#me">ME</a>
+                <a class="nav-link" id="btnme" href="#me">ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">PROJECTS</a>
+                <a class="nav-link" id="btnprojects" href="#projects">PROJECTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#gallery">GALLERY</a>
+                <a class="nav-link" id="btngallery" href="#gallery">GALLERY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">CONTACT</a>
+                <a class="nav-link" id="btncontact" href="#contact">CONTACT</a>
               </li>
 
             </ul>
@@ -47,18 +50,25 @@
             <img class="pp-reihan" src="images/ppreihan.png" alt="">
           </div>
           <div class="title-text col-lg-6 col-md-12">
-            <p class="p1 left">My name is Ahmad Reihan Alavi, and I'm a programming enthusiast.</p>
-            <p class="p2 right">I like coding, especially Android Development (Games and Apps). I've made many projects, some are for my competition purpose, and some are for real project purpose.</p>
-            <p class="p3 left">If you are interested to work with me, please contact me via :</p>
+            <div>
+              <p class="p1 left">My name is Ahmad Reihan Alavi, and I'm a programming enthusiast.</p>
+            </div>
+            <div>
+              <p class="p2 right">I like coding, especially Android Development (Games and Apps). I've made many projects, some are for my competition purpose, and some are for real project purpose.</p>
+            </div>
+            <div>
+              <p class="p3 left">If you are interested to work with me, please contact me via :</p>
+            </div>
+
 
             <div class="title-cp">
               <div class="row">
-                <div class="col-lg-6 col-md-12">
-                  <img class="contact-icon" src="images/cp/cp-email.svg" alt="">
+                <div class="cptitle col-lg-6 col-md-12 firstcp">
+                  <img class="contact-icon" src="images/cp/cp-email.svg" alt="contact-email">
                   <p class="cp inline">reihanalavi@gmail.com</p>
                 </div>
-                <div class="col-lg-6 col-md-12">
-                  <img class="contact-icon" src="images/cp/cp-whatsapp.svg" alt="">
+                <div class="cptitle col-lg-6 col-md-12 secondcp">
+                  <img class="contact-icon" src="images/cp/cp-whatsapp.svg" alt="contact-whatsapp">
                   <p class="cp inline">(+62) 858-7712-6566</p>
                 </div>
               </div>
@@ -72,7 +82,7 @@
     <section id="me">
       <div class="heading-me row">
         <div class="me-image me-medium col-lg-6 col-md-12">
-          <img src="images/heading/heading-me.svg" alt="">
+          <img src="images/heading/heading-me.svg" alt="heading-me">
         </div>
         <div class="me-text col-lg-6 col-md-12">
           <p class="p3">I'm a sixteen years old who likes to build something from a piece of laptop. Three years experience in programming makes me explore two kinds of Android Development, games and apps.</p>
@@ -80,13 +90,13 @@
           <p class="p1">I've been using Android Studio about two years for my app development. This IDE is very powerful for android developers. I do programming with Java for a year, before I migrate to Kotlin. Even it's just two years experiences, I am really familiar with how it works.</p>
         </div>
         <div class="me-image me-large col-lg-6 col-md-12">
-          <img src="images/heading/heading-me.svg" alt="">
+          <img src="images/heading/heading-me.svg" alt="heading-me">
         </div>
       </div>
     </section>
 
     <section class="projects background-dark" id="projects">
-      <img class="projects-heading-img" src="images/heading/heading-project.svg" alt="">
+      <img class="projects-heading-img" src="images/heading/heading-project.svg" alt="heading-project">
 
       <div class="row">
 
@@ -102,16 +112,16 @@
         </div>
 
         <!-- GAME DEV - WITS -->
-        <div class="project col-lg-12 col-md-12">
+        <div class="wits project col-lg-12 col-md-12">
           <div class="row">
             <div class="project-icon col-lg-5 col-md-12">
-              <img src="images/icon/icon-wits.png" alt="">
+              <img src="images/icon/icon-wits.png" alt="icon-wits">
             </div>
             <div class="project-desc col-lg-7 col-md-12">
               <p class="project-name">WITS - SNAKE AND LADDERS</p>
               <div class="project-using">
-                <img src="images/using/using-ai.svg" alt="">
-                <img src="images/using/using-construct.svg" alt="">
+                <img src="images/using/using-ai.svg" alt="icon-illustrator">
+                <img src="images/using/using-construct.svg" alt="icon-constructtwo">
               </div>
               <p class="project-p">is an English learning game for elementary students. They can learn English in fun on a snake and ladder game, and they can learn it with their friends through multiplayer mode.</p>
               <p class="project-p">Real-Projects Purpose</p>
@@ -125,23 +135,23 @@
         </div>
 
         <!-- GAME DEV - KARAKTERA -->
-        <div class="project col-lg-12 col-md-12">
+        <div class="karaktera project col-lg-12 col-md-12">
           <div class="row">
             <div class="project-icon me-medium col-lg-5 col-md-12">
-              <img src="images/icon/icon-karaktera.png" alt="">
+              <img src="images/icon/icon-karaktera.png" alt="icon-karaktera">
             </div>
             <div class="project-desc col-lg-7 col-md-12">
               <p class="project-name">KARAKTERA - EPISODE 1</p>
               <div class="project-using">
-                <img src="images/using/using-ai.svg" alt="">
-                <img src="images/using/using-construct.svg" alt="">
+                <img src="images/using/using-ai.svg" alt="icon-illustrator">
+                <img src="images/using/using-construct.svg" alt="icon-constructtwo">
               </div>
               <p class="project-p">is a learning game for characters education for teens. Basically it shows us main cases that happens to a teen, like how they should be wise for using electronic things in order to save the energy, how they should help each others and those in needs, how they tolerances people of other religions, and many kind things that teen can do.<br/><br>The game packaged like "Dumb Ways To Die", a mobile game which the interactions are very simple. Players have to only tap, swipe, and drag and drop to finish the levels.</p>
               <p class="project-p">Competition Purpose</p>
               <p class="project-p">First Place in national Edutech Coding Competition by Ministry of Education and Culture</p>
             </div>
             <div class="project-icon me-large col-lg-5 col-md-12">
-              <img src="images/icon/icon-karaktera.png" alt="">
+              <img src="images/icon/icon-karaktera.png" alt="icon-karaktera">
             </div>
           </div>
         </div>
@@ -151,16 +161,16 @@
         </div>
 
         <!-- GAME DEV - HOAKSIBER -->
-        <div class="project col-lg-12 col-md-12">
+        <div class="hoaksiber project col-lg-12 col-md-12">
           <div class="row">
             <div class="project-icon col-lg-5 col-md-12">
-              <img src="images/icon/icon-hoaksiber.png" alt="">
+              <img src="images/icon/icon-hoaksiber.png" alt="icon-hoaksiber">
             </div>
             <div class="project-desc col-lg-7 col-md-12">
               <p class="project-name">HOAKSIBER</p>
               <div class="project-using">
-                <img src="images/using/using-ai.svg" alt="">
-                <img src="images/using/using-construct.svg" alt="">
+                <img src="images/using/using-ai.svg" alt="icon-illustrator">
+                <img src="images/using/using-construct.svg" alt="icon-constructtwo">
               </div>
               <p class="project-p">is a learning game for teens on how to prevent the hoax. In the era of the technology, informations are easily get, and share to the social media platforms is the easiest way to spread informations. But not all the informations are verified, some of those are marked as hoax, and it have specific characteristics.<br><br>This is a game which shows a person in a very dark labyrinth, and in each crossing way, he gets a newinformation. The information will be his new step for another way. The labyrinth represents as how internet is wide, but we cannot know what's inside it, and the crossing way represents how much our way of responding the informations, should we share it or not. If we choose the wrong step, we'll get drowned into hoaxes.</p>
               <p class="project-p">Competition Purpose</p>
@@ -181,25 +191,25 @@
         </div>
 
         <!-- APP DEV - TUGASQUE -->
-        <div class="project col-lg-12 col-md-12">
+        <div class="tugasque project col-lg-12 col-md-12">
           <div class="row">
             <div class="project-icon me-medium col-lg-5 col-md-12">
-              <img src="images/icon/icon-tugasque.png" alt="">
+              <img src="images/icon/icon-tugasque.png" alt="icon-tugasque">
             </div>
             <div class="project-desc col-lg-7 col-md-12">
               <p class="project-name">TUGASQUE</p>
               <div class="project-using">
-                <img src="images/using/using-ai.svg" alt="">
-                <img src="images/using/using-firebase.svg" alt="">
-                <img src="images/using/using-anstud.svg" alt="">
-                <img src="images/using/using-kotlin.svg" alt="">
+                <img src="images/using/using-ai.svg" alt="icon-illustrator">
+                <img src="images/using/using-firebase.svg" alt="icon-firebase">
+                <img src="images/using/using-anstud.svg" alt="icon-androidstudio">
+                <img src="images/using/using-kotlin.svg" alt="icon-kotlin">
               </div>
               <p class="project-p">is an Android app for task management in school. Basically the teachers couldn't always teach in classroom, and they should give a papernote or a task. Through this app, teachers can efficiently manage their tasks for each class, and all students will notified if there's a new tasks for their class.</p>
               <p class="project-p">Real-Projects Purpose</p>
               <p class="project-p">for Senior High School 1 Jepara</p>
             </div>
             <div class="project-icon me-large col-lg-5 col-md-12">
-              <img src="images/icon/icon-tugasque.png" alt="">
+              <img src="images/icon/icon-tugasque.png" alt="icon-tugasque">
             </div>
           </div>
         </div>
@@ -209,19 +219,19 @@
         </div>
 
         <!-- APP DEV - ALZORA KATA -->
-        <div class="project col-lg-12 col-md-12">
+        <div class="alzorakata project col-lg-12 col-md-12">
           <div class="row">
             <div class="project-icon col-lg-5 col-md-12">
-              <img src="images/icon/icon-alzora.png" alt="">
+              <img src="images/icon/icon-alzora.png" alt="icon-alzora">
             </div>
             <div class="project-desc col-lg-7 col-md-12">
               <p class="project-name">ALZORA KATA</p>
               <div class="project-using">
-                <img src="images/using/using-ai.svg" alt="">
-                <img src="images/using/using-xampp.svg" alt="">
-                <img src="images/using/using-php.svg" alt="">
-                <img src="images/using/using-anstud.svg" alt="">
-                <img src="images/using/using-kotlin.svg" alt="">
+                <img src="images/using/using-ai.svg" alt="icon-illustrator">
+                <img src="images/using/using-xampp.svg" alt="icon-xampp">
+                <img src="images/using/using-php.svg" alt="icon-php">
+                <img src="images/using/using-anstud.svg" alt="icon-androidstudio">
+                <img src="images/using/using-kotlin.svg" alt="icon-kotlin">
               </div>
               <p class="project-p">is an Android app for Karate competition use. The judging of Kata's discipline are divided into two main factors. This is a support system for competition, where the judges inputs their score to competitors through a tablet, and the admin operators operates many things as the competition run, such as displaying each competitors' score, displaying the ranking, and displaying the head-to-head matches for medal bouts.</p>
               <p class="project-p">Real-Projects Purpose</p>
@@ -240,19 +250,19 @@
       <div id="gallery-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/gallery/gallery-wits.png" alt="">
+            <img src="images/gallery/gallery-wits.png" alt="gallery-wits">
           </div>
           <div class="carousel-item">
-            <img src="images/gallery/gallery-karaktera.png" alt="">
+            <img src="images/gallery/gallery-karaktera.png" alt="gallery-karaktera">
           </div>
           <div class="carousel-item">
-            <img src="images/gallery/gallery-hoaksiber.png" alt="">
+            <img src="images/gallery/gallery-hoaksiber.png" alt="gallery-hoaksiber">
           </div>
           <div class="carousel-item">
-            <img src="images/gallery/gallery-tugasque.png" alt="">
+            <img src="images/gallery/gallery-tugasque.png" alt="gallery-tugasque">
           </div>
           <div class="carousel-item">
-            <img src="images/gallery/gallery-alzora.png" alt="">
+            <img src="images/gallery/gallery-alzora.png" alt="gallery-alzora">
           </div>
         </div>
         <a class="carousel-control-prev bg-dark" href="#gallery-carousel" role="button" data-slide="prev">
@@ -266,18 +276,22 @@
     </section>
 
     <section class="background-dark" id="contact">
-      <img class="contact" src="images/heading/heading-contact.svg" alt="">
+      <img class="contact" src="images/heading/heading-contact.svg" alt="heading-contact">
       <div class="container-fluid">
         <p>Let me know if you have a project to do, and if my skills are meet your requirements then let me work for you!</p>
       </div>
-      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><img class="contact-icon" src="images/cp/cp-email.svg" alt=""></a>
-      <a href="https://facebook.com/ReihanAlavi"><img class="contact-icon" src="images/cp/cp-facebook.svg" alt=""></a>
-      <a href="https://instagram.com/reihanalavi"><img class="contact-icon" src="images/cp/cp-ig.svg" alt=""></a>
-      <a href="https://wa.me/6285877126566"><img class="contact-icon" src="images/cp/cp-whatsapp.svg" alt=""></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><img class="contact-icon email" src="images/cp/cp-email.svg" alt="contact-email"></a>
+      <a href="https://facebook.com/ReihanAlavi"><img class="contact-icon fb" src="images/cp/cp-facebook.svg" alt="contact-facebook"></a>
+      <a href="https://instagram.com/reihanalavi"><img class="contact-icon ig" src="images/cp/cp-ig.svg" alt="contact-instagram"></a>
+      <a href="https://wa.me/6285877126566"><img class="contact-icon wa" src="images/cp/cp-whatsapp.svg" alt="contact-whatsapp"></a>
     </section>
 
     <section class="background-dark" id="footer">
       <p>Copyright © Reihanalavi (2020).</p>
     </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
   </body>
 </html>
