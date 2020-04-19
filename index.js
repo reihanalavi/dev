@@ -1,5 +1,35 @@
 $(document).ready(function() {
 
+  $(".pp-reihan")
+  .animate({
+      width: '75%',
+      opacity: '1'
+    }, 2000);
+
+  $(".title-text .p1")
+    .animate({
+      right: '50px',
+      opacity: '1'
+    }, 1000);
+
+  $(".title-text .p2")
+    .animate({
+      left: '50px',
+      opacity: '1'
+    }, 1200);
+
+  $(".title-text .p3")
+    .animate({
+      right: '50px',
+      opacity: '1'
+    }, 1400);
+
+  $(".title-cp")
+    .animate({
+      opacity: '1',
+      bottom: '0'
+    }, 2000);
+
   $(".backtop").hide();
 
   $(window).scroll(function() {
@@ -22,41 +52,6 @@ $(document).ready(function() {
       // alert(elemBottom);
 
       return (((docViewBottom - elemTop) > offsets) && (elemBottom >= docViewTop));
-    }
-
-    // ====================================BODY==============================================
-
-    if(isOnViewPort($(".title-body"), 400)) {
-      $(".pp-reihan")
-        .animate({
-          width: '75%',
-          opacity: '1'
-        }, 2000);
-
-      $(".title-text .p1")
-        .animate({
-          right: '50px',
-          opacity: '1'
-        }, 1000);
-
-      $(".title-text .p2")
-        .animate({
-          left: '50px',
-          opacity: '1'
-        }, 1200);
-
-      $(".title-text .p3")
-        .animate({
-          right: '50px',
-          opacity: '1'
-        }, 1400);
-
-      $(".title-cp")
-        .animate({
-          opacity: '1',
-          bottom: '0'
-        }, 2000);
-
     }
 
     // ====================================ME==============================================
